@@ -1,0 +1,60 @@
+h1 {
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    margin-top: 10px;
+    color: goldenrod;
+}
+
+body {
+    background-color: rgb(1, 72, 1);
+    background-image: url("https://t3.ftcdn.net/jpg/09/71/34/42/360_F_971344266_DqlF6pQcKkXFZELJKAAQKDrh9c6kYceV.jpg");
+    background-size: cover;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(231, 209, 209);
+    font-weight: bold;
+}
+
+.play-btn{
+    color: #016f32;
+    width: 150px;
+    height: 30px;
+    background-color: goldenrod;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    
+    
+
+}
+
+.main {
+    font-size: 20px;
+    color: rgb(180, 180, 190);
+    font-weight: bold;
+
+}
+
+.msg{
+    font-size: 20px;
+    color: rgb(180, 180, 190);
+    font-style: italic;
+}
+
+.draw-btn
+{
+    color: #016f32;
+    background-color: goldenrod;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+
+}
+
+
+
+
+
