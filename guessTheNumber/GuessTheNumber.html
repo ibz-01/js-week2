@@ -1,0 +1,53 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="GuessTheNumber.css">
+    </head>
+
+    <body>
+
+        <h1> Guess The Number </h1>
+
+        <div id="playButton"> 
+
+            <button id="playBtn" onclick="playGame()" > Click To Play! </button>
+
+        </div>
+
+        <div id="maingame" style="display: none"> 
+
+
+            <div id="diffButtons"> 
+                <button class="btn"> Easy [0-100] </button>
+                <button class="btn"> Medium [0 - 200] </button>
+                <button class="btn"> Hard [0 - 500] </button>
+            </div>
+        
+            <div id="timer"> 
+                
+            </div>
+
+            <p id="range-el">  </p>
+
+            <div id="guessContainer" style="display:none" >
+
+                <input type="number" placeholder="Enter Guess..." id="guess-input"> 
+                <button id="submitBtn"> Submit </button>
+
+                <p id="feedback"> </p>
+                
+
+
+            </div>
+
+            
+        </div>
+
+
+
+    </body>
+
+    <script src="GuessTheNumber.js"> </script>
+
+
+</html>
